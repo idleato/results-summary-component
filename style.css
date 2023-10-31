@@ -188,28 +188,29 @@ body {
     );
 }
 
-@media (max-width: 650px) {
+@media screen and (max-width: 650px) {
     body {
-        align-items: flex-start;
-        background-color: white;
+      align-items: flex-start;
+      background-color: white;
     }
     .container {
-        box-shadow: none;
-    }
+      box-shadow: none;
+      width: 350px;
+      margin: 10px;
+      border-radius: 2px;
 
+    }
     .card-container {
-        flex-direction: column;
+      flex-direction: column;
     }
-
     .result {
-        border-radius: 0 0 1rem 1rem;
-        width: 100%;
+      border-radius: 0 0 1rem 1rem;
+      width: 100%;
     }
     .result .info {
-        width: 250px;
+      width: 250px;
     }
-
     .summary {
-        width: 100%;
+      width: 100%;
     }
-}
+  }
